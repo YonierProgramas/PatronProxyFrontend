@@ -1,0 +1,39 @@
+{
+  "result": "PASS",
+  "distinctTests": 20,
+  "suites": {
+    "dashboard.test.tsx": 8,
+    "polling.test.tsx": 5,
+    "actions.test.tsx": 2,
+    "client.test.ts": 5
+  },
+  "runs": [
+    {
+      "command": "npm test",
+      "passed": 14
+    },
+    {
+      "command": "npm test -- tests/client.test.ts tests/polling.test.tsx",
+      "passed": 9
+    },
+    {
+      "command": "npm test -- tests/client.test.ts",
+      "passed": 5
+    },
+    {
+      "command": "npm test",
+      "passed": 20,
+      "suitesPassed": 4,
+      "phase": "Pre-GitHub complete verification"
+    }
+  ],
+  "typescript": "PASS",
+  "viteProductionBuild": "PASS",
+  "browserVisualQA": "PENDING",
+  "publicDeployment": "PENDING",
+  "latestFullRun": {
+    "passed": 20,
+    "failed": 0,
+    "suitesPassed": 4
+  }
+}
