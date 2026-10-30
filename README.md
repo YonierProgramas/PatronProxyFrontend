@@ -5,7 +5,7 @@
 - Backend: https://github.com/YonierProgramas/PatronProxyBackend
 - Frontend: https://github.com/YonierProgramas/PatronProxyFrontend
 
-Cada proyecto tiene su propio repositorio Git y rama `main`, con sus archivos directamente en la raíz. La carpeta superior no es un repositorio del taller. Railway y Vercel permanecen sin desplegar por instrucción del usuario.
+Cada proyecto tiene su propio repositorio Git y rama `main`, con sus archivos directamente en la raíz. La carpeta superior no es un repositorio del taller. Render y Vercel permanecen sin despliegue verificado; ver DEPLOYMENT_STATUS.md para los bloqueos de conexión y plan.
 
 Dashboard React + TypeScript estricto + Vite + Recharts, interfaz en español. Proyecto independiente del backend, sin repositorio superior. No contiene datos falsos ni métricas inventadas. API mediante VITE_API_BASE_URL (solo origen, sin /api). Error visible si falta configuración.
 

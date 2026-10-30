@@ -37,3 +37,7 @@ Se sirvió Vite en 5173 con VITE_API_BASE_URL=http://localhost:8080; HTML HTTP 2
 Nueva ejecución `npm test`: **4 suites aprobadas, 20/20 pruebas** en una sola ejecución (265.22 s, preparación JSDOM/OneDrive predominante). `npm run build`: **correcto**, TypeScript estricto y Vite; 626 módulos, chunks de aplicación 16.65 kB, React 222.29 kB y gráficas 373.59 kB. Los resultados anteriores se conservan como historial, sin sumar pruebas repetidas.
 
 Se revisaron `.gitignore`, archivos del índice y origen oficial: ningún .env privado, credencial, node_modules, dist o target se incluye. `.env.example` y package-lock.json se conservan. No se efectuó despliegue Vercel ni Railway.
+
+## Preparación Render/Vercel
+
+Nueva verificación completa: **20/20 pruebas, cuatro suites**; TypeScript y build Vite correctos (626 módulos). Frontend conserva VITE_API_BASE_URL, sin URL pública inventada ni fallback de producción. No se desplegó Vercel: falta conexión de proveedor confirmada y URL backend real funcional para validar el flujo completo.
