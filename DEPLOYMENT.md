@@ -25,6 +25,6 @@ Referencia oficial: [Vite en Vercel](https://vercel.com/docs/frameworks/frontend
 
 ## Backend actualizado a Render
 
-Crear primero monitor-api público en Render y los tres negocios como Private Services, con PostgreSQL de auditoría. Los pasos y costes están en DEPLOYMENT.md del repositorio backend. La publicación de esta adaptación en GitHub está autorizada. El despliegue depende de la conexión a los proveedores y de resolver el límite del plan gratuito.
+Crear primero monitor-api público en Render y los tres negocios como Web Services Free protegidos por secreto interno, con PostgreSQL de auditoría. Los pasos y costes están en DEPLOYMENT.md del repositorio backend. La publicación de esta adaptación en GitHub está autorizada. El despliegue depende de la conexión a los proveedores y de resolver el límite del plan gratuito.
 
 En Vercel se conserva framework Vite, root del repositorio frontend, npm ci, npm run build, salida dist. VITE_API_BASE_URL debe contener el origen HTTPS real de monitor-api en Render, sin /api y sin secretos. El dominio real de Vercel debe figurar en CORS_ALLOWED_ORIGINS del gateway. Verificar API disponible → variable frontend → despliegue Vercel autorizado → CORS → operación con UUID y simulación +50.
